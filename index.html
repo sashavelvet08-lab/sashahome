@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fce7f3">
+  <title>Sasha home 💗</title>
+  <meta name="description" content="A little corner to say hello to Sasha.">
+  <style>
+    :root { color-scheme: light; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; min-height: 100vh; display: grid; place-items: center;
+      padding: 24px; font-family: Georgia, "Times New Roman", serif;
+      color: #71334f;
+      background:
+        radial-gradient(circle at 12% 18%, #fff 0 5%, transparent 28%),
+        radial-gradient(circle at 90% 80%, #fbcfe8 0 4%, transparent 30%),
+        linear-gradient(135deg, #fff1f7, #fce7f3 55%, #fbcfe8);
+    }
+    .card {
+      width: min(100%, 440px); text-align: center; padding: 42px 28px 32px;
+      border: 1px solid rgba(255,255,255,.9); border-radius: 30px;
+      background: rgba(255,255,255,.78); box-shadow: 0 22px 65px rgba(146, 54, 99, .14);
+      backdrop-filter: blur(10px);
+    }
+    .heart {
+      width: 82px; height: 82px; margin: 0 auto 18px; display: grid; place-items: center;
+      border-radius: 50%; background: linear-gradient(145deg,#f9a8d4,#ec4899);
+      color: white; font: 36px/1 Arial, sans-serif; box-shadow: 0 10px 24px #ec489944;
+    }
+    h1 { margin: 0; font-size: clamp(34px, 8vw, 43px); letter-spacing: -.8px; }
+    .tag { margin: 13px 0 26px; color: #995b78; font: 16px/1.6 Arial, sans-serif; }
+    a.button {
+      display: flex; align-items: center; justify-content: center; gap: 10px;
+      width: 100%; padding: 17px 20px; border-radius: 999px;
+      background: linear-gradient(100deg,#ec4899,#db2777); color: #fff;
+      text-decoration: none; font: 700 16px Arial, sans-serif;
+      box-shadow: 0 12px 25px #db277744; transition: transform .15s ease, box-shadow .15s ease;
+    }
+    a.button:hover { transform: translateY(-2px); box-shadow: 0 16px 30px #db277755; }
+    .small { margin: 22px 0 0; color: #ad7891; font: 12px/1.6 Arial, sans-serif; }
+    .sparkle { color: #ec4899; }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <div class="heart" aria-hidden="true">♡</div>
+    <h1>Sasha home</h1>
+    <p class="tag">A little corner to say hello.<br>I'd love to hear from you. <span class="sparkle">💗</span></p>
+    <a class="button" href="https://signal.me/#eu/KDCBVvu4Lsu0-q2TOtpmyI-geT4Why1eKhq8ibkIVfJcJcZwFmxPTbukGf8xYptf" target="_blank" rel="noopener noreferrer">
+      <span aria-hidden="true">✉</span> Chat with me on Signal
+    </a>
+    <p class="small">Thanks for stopping by · Sending love ♡</p>
+  </main>
+</body>
+</html>
